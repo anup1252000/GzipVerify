@@ -1,0 +1,80 @@
+﻿{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 30,
+      "email": "john.doe@example.com",
+      "address": {
+        "street": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001"
+      },
+      "orders": [
+        {
+          "id": 1001,
+          "date": "2023-07-01",
+          "items": [
+            {
+              "id": 1,
+              "name": "Product A",
+              "price": 19.99
+            },
+            {
+              "id": 2,
+              "name": "Product B",
+              "price": 29.99
+            }
+          ]
+        },
+        {
+          "id": 1002,
+          "date": "2023-07-05",
+          "items": [
+            {
+              "id": 3,
+              "name": "Product C",
+              "price": 39.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 25,
+      "email": "jane.smith@example.com",
+      "address": {
+        "street": "456 Elm Street",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001"
+      },
+      "orders": [
+        {
+          "id": 1003,
+          "date": "2023-07-10",
+          "items": [
+            {
+              "id": 4,
+              "name": "Product D",
+              "price": 49.99
+            },
+            {
+              "id": 5,
+              "name": "Product E",
+              "price": 59.99
+            },
+            {
+              "id": 6,
+              "name": "Product F",
+              "price": 69.99
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
